@@ -6,9 +6,9 @@
             <div class="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[white]">
                 <h1 class="text-[75px] max-[680px]:text-center max-[680px]:leading-[5rem]">About Us</h1>
                 <div class="flex justify-center items-center pt-16">
-                    <p class="text-[17px] pr-8"><router-link to="/" tag="button">Home</router-link></p> 
+                    <p class="text-[17px] pr-8 transform hover:translate-y-1 transition duration-500 ease-in-out"><router-link to="/" tag="button">Home</router-link></p> 
                     /
-                    <p class="text-[17px] text-[#75dab4] pl-8">About Us</p>
+                    <p class="text-[17px] text-[#75dab4] pl-8 transform hover:translate-y-1 transition duration-500 ease-in-out cursor-pointer">About Us</p>
                 </div>
             </div>
         </nav>
@@ -20,21 +20,21 @@
                 </div>
             </div>
             <div class="flex flex-row w-[1200px] justify-between mt-[4em] mx-16 max-[1250px]:w-[900px] max-[915px]:w-[800px] max-[810px]:flex-col max-[810px]:items-center pb-[120px]">
-        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[810px]:mb-[50px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px] ">
+        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[810px]:mb-[50px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px] hover:bg-[#21242B] hover:transition hover:ease-in-out hover:delay-10 transition ease-in-out delay-30 cursor-pointer">
           <div class="p-[60px] flex justify-center items-center flex-col max-[1250px]:p-[0px] max-[1250px]:px-[20px]">
             <img src="../../assets/web_development_icon.svg" alt="" class="w-[51px] h-[50px] mb-[35px]">
             <p class="bold_text text-white mb-[15px] tracking-[0.1rem] text-[24px] font-bold text-center leading-[2rem]">Web Development</p>
             <p class="text-[15px] text-[#C8C8C8] text-center leading-[1.8rem]">Tempore corrupti temporibus fuga  earum asperiores fugit laudantium.</p>
           </div>
         </div>
-        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[810px]:mb-[50px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px]">
+        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[810px]:mb-[50px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px] hover:bg-[#21242B] hover:transition hover:ease-in-out hover:delay-10 transition ease-in-out delay-30 cursor-pointer">
           <div class="p-[60px] flex justify-center items-center flex-col max-[1250px]:p-[0px] max-[1250px]:px-[20px]">
             <img src="../../assets/digital_marketing_icon.svg" alt="" class="w-[51px] h-[50px] mb-[40px]">
             <p class="bold_text text-white mb-[15px] tracking-[0.1rem] text-[24px] font-bold text-center leading-[2rem]">Digital Marketing</p>
             <p class="text-[15px] text-[#C8C8C8] text-center leading-[1.8rem]">Tempore corrupti temporibus fuga  earum asperiores fugit laudantium.</p>
           </div>
         </div>
-        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px]" >
+        <div class="max-w-[350px] h-[330px] bg-[#151921] flex justify-center items-center flex-col relative z-[2] max-[1250px]:max-w-[250px] max-[1250px]:h-[380px] max-[810px]:max-w-[800px] max-[810px]:max-h-[300px] max-[600px]:max-w-[350px] max-[370px]:max-w-[200px] hover:bg-[#21242B] hover:transition hover:ease-in-out hover:delay-10 transition ease-in-out delay-30 cursor-pointer" >
           <div class="p-[60px] flex justify-center items-center flex-col max-[1250px]:p-[0px] max-[1250px]:px-[20px]">
             <img src="../../assets/graphic_design_icon.svg" alt="" class="w-[51px] h-[50px] mb-[40px]">
             <p class="bold_text text-white tracking-[0.1rem] mb-[20px] text-[24px] font-bold text-center">Graphic Design</p>
@@ -154,42 +154,15 @@
         <p class="text-[#74D5AF] tracking-[0.3rem] mb-[30px] contact_text_font1 max-[400px]:text-[50vw]">LET'S TALK</p>
         <p class=" bold_text text-[transparent] font-bold  max-[1220px]:leading-[3rem] max-[460px]:text-[10px] contact_text_font2 max-[400px]:leading-[2rem] max-[400px]:pr-8" style="-webkit-text-stroke: 1px white; ">ABOUT YOUR <span class="  naslov_sec2 bold_text" style="text-shadow:none; letter-spacing: -2px;">NEXT PROJECT</span>.</p>
       </div>
-      <button class="text-[15px] py-[15px] px-[35px] border-2 border-[white] text-[white] font-bold tracking-[0.2rem] max-[1220px]:py-[5px] px-[35px] max-[820px]:mt-8 max-[400px]:mt-[10px]" @click="modalpop()">Get In Touch</button>
+      <button class="text-[15px] py-[15px] px-[35px] border-2 border-[white] text-[white] font-bold tracking-[0.2rem] max-[1220px]:py-[5px] px-[35px] max-[820px]:mt-8 max-[400px]:mt-[10px] animation-contact-button" @click="modalpop()">Get In Touch</button>
       </div>
     </section>
-    <footer class="w-full flex min-h-[30em] max-[800px]:min-h-[35em] bg-[#151921] half-bg flex justify-center items-center overflow-x-hidden">
-        <div class=" flex justify-between items-center w-[1300px] max-[800px]:flex-col ">
-          <div class="ml-8 max-[800px]:flex max-[800px]:flex-col max-[800px]:min-w-[30em] max-[800px]:mx-8 max-[800px]:my-8 max-[800px]:min-w-[368px] max-[390px]:min-w-[auto]">
-            <img src="../../assets/logo.png" alt="" class="h-[55px] w-[50px] mb-[1.5rem]">
-            <p class="font-bold text-[white] text-[12px] mb-[5px]">Email: <a href="" class="font-normal ml-[10px]">newage@agencycroatia.com</a></p> 
-            <p class="font-bold text-[white] text-[12px]">Phone: <a href="" class="font-normal ml-[10px]">(+385) 091 729 2812</a></p> 
-            <p class="text-[11px] tracking-[0.4em] my-8 pl-[8px] text-white Barlow_Condensed py-[3px]" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 20%,  transparent 20%,	transparent 100%);">FOLLOW US</p>
-            <ul class="flex ">
-              <li class="p-[14px] rounded-full cursor-pointer" style="background: rgba(255, 255, 255, 0.01);"><img src="../../assets/ig_icon.svg" alt="" class="w-[18px] h-[18px] "></li>
-              <li class="p-[14px] rounded-full mx-2 cursor-pointer" style="background: rgba(255, 255, 255, 0.01);"><img src="../../assets/fb_icon.svg" alt="" class="w-[18px] h-[18px]"></li>
-              <li class="p-[14px] rounded-full cursor-pointer" style="background: rgba(255, 255, 255, 0.01);"><img src="../../assets/gmail_icon.svg" alt="" class="w-[18px] h-[18px]"></li>
-            </ul>
-          </div>
-          <div class="min-w-[30em] mr-8  max-[800px]:mx-8 max-[800px]:mb-[2em] max-[800px]:min-w-[auto]">
-            <p class="text-[11px] tracking-[0.4em] pl-[8px] text-white Barlow_Condensed py-[3px] mb-[30px]" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 10%,  transparent 10%,	transparent 100%);">NEWSLETTER</p>
-            <p class="text-[12px] mb-[10px] text-[#999]">Sign up for subscribe out newsletter!</p>
-            <form action="" class="flex flex-row mb-[50px] max-[370px]:flex-col">
-              <input type="email" name="" id="" class="p-[15px] w-full b-0 text-white" style="background: rgba(255, 255, 255, 0.01);">
-              <button type="submit" class="py-[15px] px-[30px] b-0 text-[#75dab4] tracking-[1px] text-[13px] max-[370px]:mt-[1em] max-[370px]:rounded-[6%]" style="background: rgba(255, 255, 255, 0.02);">SUBSCRIBE</button>
-            </form>
-            <p class="text-[11px] tracking-[0.4em] pl-[8px] text-white Barlow_Condensed py-[3px] mb-[30px] " style="background: linear-gradient(to right, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 13%,  transparent 13%,	transparent 100%);">INSTAGRAM POST</p>
-            <ul class="flex">
-              <li><img src="../../assets/instagram_post1.png" alt="" class="max-w-[64px] max-h-[64px] rounded-full border-1 border-[white]"></li>
-              <li><img src="../../assets/instagram_post2.png" alt="" class="max-w-[64px] max-h-[64px] rounded-full mx-[5px]"></li>
-              <li><img src="../../assets/instagram_post3.png" alt="" class="max-w-[64px] max-h-[64px] rounded-full"></li>
-            </ul>
-          </div>
-        </div>
-    </footer>
+    <footer_page />
     </div>
 </template>
 <script setup>
-    import navbar from './navbar.vue'
+    import navbar from './navbar.vue';
+    import footer_page from './footer.vue';
 </script>
 <script>
 

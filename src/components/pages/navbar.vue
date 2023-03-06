@@ -4,9 +4,9 @@
     <div class="flex justify-between items-center w-[1200px] max-[430px]:bg-[#11141B] max-[430px]:absolute max-[430px]:w-[100%]  max-[430px]:px-8 max-[430px]:py-[1rem]" >
         <li><router-link to="/" tag="button"><img src="../../assets/logo.png" class="w-[64px] "></router-link></li>
       <div class="flex justify-between items-center max-[430px]:hidden">
-        <li><router-link to="/about" tag="button">About</router-link></li>
-        <li class="mx-8"><router-link to="/projects" tag="button">Projects</router-link></li>
-        <li><router-link to="/contact" tag="button">Contact</router-link></li>
+        <li class="transform hover:translate-y-1 transition duration-500 ease-in-out" ><router-link to="/" tag="button">Home</router-link></li>
+        <li class="mx-8 transform hover:translate-y-1 transition duration-500 ease-in-out"><router-link to="/about" tag="button">About</router-link></li>
+        <li class="transform hover:translate-y-1 transition duration-500 ease-in-out"><router-link to="/contact" tag="button">Contact</router-link></li>
       </div>
       <ul
           id="hamburger-menu"
@@ -188,6 +188,8 @@ input[type]:checked ~ span.middle {
   transform: translateX(-20px);
   opacity: 0;
 }
-  
+.router-link-exact-active {
+  border-bottom: 2px solid #ffffff;
+}
 
 </style>
