@@ -84,7 +84,7 @@
             </div>
             </div>
             <textarea name="message" placeholder="Message" class="mt-[30px] p-[15px] min-h-[200px] text-[white] bg-transparent max-h-[250px] mb-[1rem]" style="border: 1px solid rgba(255, 255, 255, 0.3);"></textarea>
-            <input type="submit" value="Pošalji" class="float-right h-[50px]"> 
+            <input type="submit" value="Pošalji" class="float-right h-[50px] cursor-pointer"> 
         </form>
        </section>
        <footer_page class="relative z-3"/>
@@ -159,6 +159,12 @@ input[type=submit] {
   letter-spacing: 3px;
   width: 200px;
   padding: 12px 35px;
+  transition: 0.6s all ease-in;
+}
+input[type=submit]:hover {
+  background-color: #fff;
+  color:black;
+  transition: 0.3s all ease-in;
 }
 input[type=radio],input[type=checkbox]{
   width: 10px;
