@@ -56,7 +56,7 @@
                             <div>
                                 <p class="mt-[60px] max-[320px]:mt-[20px] pb-[30px] mb-[30px] text-[#333] text-[17px] leading-[2rem] text-left font-light" style="border-bottom: 1px solid rgba(0, 0, 0, 0.05);">{{ slide_content[slide] }}</p>
                                 <div class="flex items-center">
-                                    <img src="{{ slide_images }}" alt="" class="w-[70px] h-[60px] rounded-full object-fit">
+                                    <img src="" alt="" class="w-[70px] h-[60px] rounded-full object-fit">
                                     <div class="text-left ml-[15px]">
                                         <p class="text-[#0c0f16] tracking-[2px] mb-[2px] uppercase font-bold">{{ slide_name[slide] }}</p>
                                         <p class="text-[#0c0f16] font-light text-[13px]">{{ slide_proffesion[slide] }}</p>
